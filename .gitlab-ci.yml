@@ -1,12 +1,17 @@
 stages:
+    - build
     - publish
+
+builder:
+    stage: build
+    script:
+        - npm ci
+        - npm run build
 
 publish:
     stage: publish
     script:
         - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" >> .npmrc
-        - npm install
-        - npm run build
         - npm publish --access public
     only:
         - master
