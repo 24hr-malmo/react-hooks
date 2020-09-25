@@ -1,12 +1,13 @@
 {
     "name": "@24hr/react-hooks",
-    "version": "0.0.13",
+    "version": "0.0.14",
     "description": "react hooks",
     "main": "dist/es/index.js",
     "files": [
         "dist",
         "package.json"
     ],
+    "module": "dist/es",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build:es": "ES_MODULES=true babel src --out-dir dist/es",
