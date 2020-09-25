@@ -1,6 +1,6 @@
 {
     "name": "@24hr/react-hooks",
-    "version": "0.0.11",
+    "version": "0.0.12",
     "description": "react hooks",
     "main": "dist/index.js",
     "files": [
@@ -14,11 +14,17 @@
     "author": "Tina Håkansson <tina.hakansson@24hr.se>",
     "license": "MIT",
     "devDependencies": {
+        "@babel/cli": "^7.11.6",
         "@babel/core": "^7.11.6",
         "@babel/preset-env": "^7.11.5",
-        "@babel/cli": "^7.11.6"
+        "babel-preset-minify": "^0.5.1"
     },
     "peerDependencies": {
         "react": "16.x"
-    }
+    },
+    "dependencies": {
+        "core-js": "^3.6.5",
+        "regenerator-runtime": "^0.13.7"
+    },
+    "sideEffects": false
 }
