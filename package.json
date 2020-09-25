@@ -1,6 +1,6 @@
 {
     "name": "@24hr/react-hooks",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "react hooks",
     "main": "dist/index.js",
     "files": [
