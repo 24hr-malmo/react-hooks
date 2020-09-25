@@ -6,6 +6,7 @@ builder:
     stage: build
     artifacts:
         untracked: true
+        expire_in: 1hr
     script:
         - npm ci
         - npm run build
