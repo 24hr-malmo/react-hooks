@@ -1,6 +1,6 @@
 {
     "name": "@24hr/react-hooks",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "react hooks",
     "main": "dist/index.js",
     "files": [
@@ -9,7 +9,7 @@
     ],
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "prepublish": "babel src --out-dir dist"
+        "build": "babel src --out-dir dist"
     },
     "author": "Tina Håkansson <tina.hakansson@24hr.se>",
     "license": "MIT",
