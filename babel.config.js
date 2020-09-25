@@ -14,7 +14,7 @@ module.exports = api => {
                 },
                 useBuiltIns: 'entry',
                 corejs: 3,
-                modules: process.env.ES_MODULES === 'true' ? false : 'auto',
+                modules: false,
             },
         ],
         [
