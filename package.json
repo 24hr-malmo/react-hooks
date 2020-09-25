@@ -1,15 +1,17 @@
 {
     "name": "@24hr/react-hooks",
-    "version": "0.0.12",
+    "version": "0.0.13",
     "description": "react hooks",
-    "main": "dist/index.js",
+    "main": "dist/es/index.js",
     "files": [
         "dist",
         "package.json"
     ],
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "babel src --out-dir dist"
+        "build:es": "ES_MODULES=true babel src --out-dir dist/es",
+        "build:cjs": "ES_MODULES=false babel src --out-dir dist/cjs",
+        "build": "npm run build:es && npm run build:cjs"
     },
     "author": "Tina Håkansson <tina.hakansson@24hr.se>",
     "license": "MIT",
