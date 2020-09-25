@@ -9,6 +9,8 @@ builder:
         - npm run build
 
 publish:
+    dependencies:
+        - builder
     stage: publish
     script:
         - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" >> .npmrc
