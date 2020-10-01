@@ -1,6 +1,14 @@
-# Resurs hooks
+# @24hr/react-hooks
 
-24HR Hooks library
+React hooks library
+
+## Documentation
+
+```js
+useBeforeMount(() =>
+    console.log('Runs only once before component mounts)
+)
+```
 
 # Want to contribute?
 
