@@ -6,7 +6,7 @@ React hooks library
 
 ```js
 useBeforeMount(() =>
-    console.log('Runs only once before component mounts)
+    console.log('Runs only once before component mounts')
 )
 ```
 
