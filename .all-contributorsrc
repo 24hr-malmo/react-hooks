@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "marcusthelin",
+      "name": "Marcus Thelin",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/22647302?v=4",
+      "profile": "https://www.marcusthelin.com",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "react-hooks",
+  "projectOwner": "24hr-malmo",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
