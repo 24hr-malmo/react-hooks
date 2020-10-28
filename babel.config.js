@@ -11,10 +11,11 @@ module.exports = api => {
                         'not ie <= 11',
                         'not ie_mob <= 11',
                     ],
+                    esmodules: true
                 },
                 useBuiltIns: 'entry',
                 corejs: 3,
-                modules: false,
+                modules: process.env.CJS ? 'commonjs' : false,
             },
         ],
         [
