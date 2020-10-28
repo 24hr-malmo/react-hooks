@@ -8,10 +8,9 @@ module.exports = api => {
                     browsers: [
                         'last 2 versions',
                         'safari >= 7',
-                        'not ie <= 11',
+                        'not ie < 11',
                         'not ie_mob <= 11',
                     ],
-                    esmodules: true
                 },
                 useBuiltIns: 'entry',
                 corejs: 3,
