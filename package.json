@@ -15,7 +15,7 @@
         "build:es": "babel src --out-dir dist-es",
         "build:cjs": "CJS=true babel src --out-dir dist-cjs",
         "build": "npm run build:es && npm run build:cjs",
-        "watch": "babel src --out-dir dist-modern --watch"
+        "watch": "babel src --out-dir dist-es --watch"
     },
     "author": "Tina Håkansson <tina.hakansson@24hr.se>, Marcus Thelin <marcus.thelin@24hr.se>",
     "license": "MIT",

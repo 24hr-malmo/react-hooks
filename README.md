@@ -7,9 +7,11 @@ React hooks library
 
 ## Documentation
 
+### useBeforeMount
+A hook that runs before mount and is suitable for SSR.
 ```js
 useBeforeMount(() =>
-    console.log('Runs only once before component mounts')
+    console.log('Runs only once before component mounts. Works on the server!')
 )
 ```
 
