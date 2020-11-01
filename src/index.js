@@ -9,3 +9,4 @@ import 'core-js/features/dom-collections/for-each';
 import 'regenerator-runtime/runtime';
 
 export { default as useBeforeMount } from './hooks/use-before-mount';
+export { default as useLocalStorage } from './hooks/use-localstorage';
