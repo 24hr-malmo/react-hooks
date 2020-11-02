@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { v4 } from 'uuid';
 
 /**
  * @typedef Options
