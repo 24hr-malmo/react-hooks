@@ -16,6 +16,24 @@ useBeforeMount(() =>
 )
 ```
 
+### useLocalStorage
+A hook that syncs state with localstorage
+```js
+/**
+ * @typedef Options
+ * @property {boolean} [clearOnUnmount] - Whether or not to clear the localstorage value on unmount.
+ */
+
+/**
+ * A hook that syncs the state with a property in the localstorage.
+ * @param {string} defaultVal - The initial value
+ * @param {string} key - Mandatory key to use to store the data in localstorage.
+ * @param {Options} options - Options object
+ * @return {[any, function, function]} - Return the current state, a set state function and a function to clear the storage.
+ */
+const [state, setState, clear] = useLocalStorage('default value', 'key', { clearOnUnmount: false });
+```
+
 # Want to contribute?
 
 It's easy to contribute!
