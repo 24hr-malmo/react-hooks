@@ -20,7 +20,7 @@ const useLocalStorage = (defaultVal, key, { clearOnUnmount = false } = {}) => {
     const [state, setState] = useState(() => {
         let value;
         try {
-            value = JSON.parse(window.localStorage.getItem(key)) || defaultVal;
+            value = JSON.parse(window.localStorage.getItem(key)) ?? defaultVal;
         } catch (error) {
             value = defaultVal;
         }
